@@ -1,0 +1,26 @@
+from time import sleep
+print (65* '=')
+print ('Guia de auxilio de preenchimento CPT - Conversa Pré-Tarefa Alcoa')
+print (65*'=')
+print ('Quais riscos na frente de trabalho?')
+sleep(2)
+print('''[1] Trabalho a quente
+[2] Trabalho  em altura
+[3] Espaço Confinado
+[4] EBTV
+[5] Produtos Químicos
+[6] Içamento de cargas
+[7] Equipamentos móveis
+[8] Eletricidade''')
+print ( 65*'=')
+risco = int(input('Escolha as opções de risco: '))
+if risco ==1:
+	print('Descreveu o PASSO a PASSO? Ele contem uma ou mais das opções abaixo:')
+	print ('''        [1] Uso de lixadeira
+	[2] Uso de maçarico
+	[3] Uso de máquina de solda''')
+	opcao = int(input('Qual método será utilizado?'))
+	if opcao == 1:
+	    print ('O que poderia dar errado? Quais os riscos associados?: \n - Cortes de membros superiores / inferiores \n - Projeção de fagulhas \n - Rompimento de disco')
+	    print ('Controles críticos? Quando isto acontecer, o que me protege?: \n - Uso dos Epis de raspa de couro \n - Uso do protetor facial \n - Inspeção visual do disco')
+	    print ('Quais os "Critérios de Parada" quando acontecer? : \n - Ausência de uso dos Epis de raspa \n - Ausência de uso do protetor facial \n - Disco rompido')
