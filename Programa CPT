@@ -24,7 +24,26 @@ if risco ==1:
 	    print ('O que poderia dar errado? Quais os riscos associados?: \n - Cortes de membros superiores / inferiores \n - Projeção de fagulhas \n - Rompimento de disco')
 	    print ('Controles críticos? Quando isto acontecer, o que me protege?: \n - Uso dos Epis de raspa de couro \n - Uso do protetor facial \n - Inspeção visual do disco')
 	    print ('Quais os "Critérios de Parada" quando acontecer? : \n - Ausência de uso dos Epis de raspa \n - Ausência de uso do protetor facial \n - Disco rompido')
-	elif opcao == 2:
+	if opcao == 2:
 	    print ('O que poderia dar errado? Quais os riscos associados?: \n - Vazamento de gases \n - Intoxicação por gases \n - Incêndio')
 	    print ('Controles críticos? Quando isto acontecer, o que me protege?:\n - Inspeção dos manometros e valvulas \n - Inspeção nas mangueiras \n - Etiquetar o equipamento e não usar')
 	    print ('Quais os "Critérios de Parada" quando acontecer? : \n - Manometros e valvulas com defeito \n - Mangueiras com vazamento \n - Equipamento com problemas sem a etiqueta')
+	if opcao == 3:
+	    print ('O que poderia dar errado? Quais os riscos associados?:  \n - Falha da máquina de solda;   \n - Choque elétrico;  \n -  RNI (Radiação Não Ionizante')
+	    print ('Controles críticos? Quando isto acontecer, o que me protege?: \n - Inspeção com check list da máquina de solda; \n - Inspeção com a cor do mês; \n - Uso de extensão com DR; \n - Uso da máscara de solda; \n - Uso dos Biombos contra RNI')
+	    print ('Quais os "Critérios de Parada" quando acontecer? : \n - Ausência do check list e inspeção da máquina de solda; \n - Máquina de solda em péssimas condições; \n - Cor proibida Falta de inspeção; \n - Ausência do DR; \n - Extensão rompida; \n - Ausência do uso da máscara de solda; \n - Ausência de uso dos biombos;')
+if risco ==2:
+    print('Em desenvolvimento riscos e medidas de controle para Trabalho em altura')
+if risco ==3:
+    print('Em desenvolvimento riscos e medidas de controle para Espaço Confinado')
+if risco ==4:
+    print('Em desenvolvimento riscos e medidas de controle para EBTV')
+if risco ==5:
+    print('Em desenvolvimento riscos e medidas de controle para Produtos Químicos')
+if risco ==6:
+    print('Em desenvolvimento riscos e medidas de controle para Içamento de cargas')
+if risco==7:
+    print('Em desenvolvimento riscos e medidas de controle para Equipamentos Móveis')
+if risco ==8:
+    print('Em desenvolvimento riscos e medidas de controle para Eletricidade')
+
